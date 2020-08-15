@@ -1,0 +1,19 @@
+intents:
+  - greet
+  - goodbye
+  - weather
+
+responses:
+  utter_greet:
+  - text: "Witam w czym mogę pomóc"
+
+  utter_weather:
+  - text: "Jest słonecznie i ciepło 25 stopni"
+
+  utter_goodby:
+  - text: "Żegnam"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
